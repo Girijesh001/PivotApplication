@@ -1,0 +1,35 @@
+﻿<Window x:Class="PivotApplication.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PivotApplication"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="457.083" Width="525">
+    <Grid>
+        <Button x:Name="button" Content="Calculate Pivot Point" HorizontalAlignment="Left" Margin="39,136,0,0" VerticalAlignment="Top" Width="215" Click="button_Click"/>
+        <Label x:Name="label" Content="High" HorizontalAlignment="Left" Margin="39,36,0,0" VerticalAlignment="Top" Width="111"/>
+        <Label x:Name="label_Copy" Content="Low" HorizontalAlignment="Left" Margin="39,62,0,0" VerticalAlignment="Top" Width="111"/>
+        <Label x:Name="label_Copy1" Content="Close" HorizontalAlignment="Left" Margin="39,95,0,0" VerticalAlignment="Top" Width="126"/>
+        <TextBox x:Name="txtHigh" HorizontalAlignment="Left" Height="23" Margin="254,36,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" TextChanged="textBox_TextChanged"/>
+        <TextBox x:Name="txtLow" HorizontalAlignment="Left" Height="23" Margin="254,70,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtClose" HorizontalAlignment="Left" Height="23" Margin="254,98,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <!--<StackPanel HorizontalAlignment="Left" Height="149" Margin="22,247,0,0" VerticalAlignment="Top" Width="186">
+            <Label x:Name="label_Copy2" Content="Label" HorizontalAlignment="Left" VerticalAlignment="Top" Width="137"/>
+            <Label x:Name="label_Copy3" Content="Label" HorizontalAlignment="Left" VerticalAlignment="Top" Width="137"/>
+            <Label x:Name="label_Copy4" Content="Label" HorizontalAlignment="Left" VerticalAlignment="Top" Width="137"/>
+            <Label x:Name="label_Copy5" Content="Label" HorizontalAlignment="Left" VerticalAlignment="Top" Width="137"/>
+            <Label x:Name="label_Copy6" Content="Label" HorizontalAlignment="Left" VerticalAlignment="Top" Width="137"/>
+        </StackPanel>
+        <StackPanel HorizontalAlignment="Left" Height="149" Margin="291,247,0,0" VerticalAlignment="Top" Width="186">
+            <Label x:Name="label_Copy7" Content="Label" HorizontalAlignment="Left" VerticalAlignment="Top" Width="137"/>
+            <Label x:Name="label_Copy8" Content="Label" HorizontalAlignment="Left" VerticalAlignment="Top" Width="137"/>
+            <Label x:Name="label_Copy9" Content="Label" HorizontalAlignment="Left" VerticalAlignment="Top" Width="137"/>
+            <Label x:Name="label_Copy10" Content="Label" HorizontalAlignment="Left" VerticalAlignment="Top" Width="137"/>
+            <Label x:Name="label_Copy11" Content="Label" HorizontalAlignment="Left" VerticalAlignment="Top" Width="137"/>
+        </StackPanel>-->
+        <Label x:Name="lblResultPivot" Content="Label" HorizontalAlignment="Left" Margin="73,238,0,0" VerticalAlignment="Top" Width="221" Height="41" FontWeight="Bold" FontSize="20"/>
+        <DataGrid x:Name="dataGrid" HorizontalAlignment="Left" Margin="73,284,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>
